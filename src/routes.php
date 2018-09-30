@@ -1,3 +1,3 @@
 <?php
 
-Route::get('/debut', 'Vendor/saberLiou/DebutContorller@index')->name('debut.index');
+Route::get('/debut', 'App\Http\Controllers\Vendor\saberLiou\DebutController@index')->name('debut.index');

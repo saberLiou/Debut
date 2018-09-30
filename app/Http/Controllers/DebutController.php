@@ -1,6 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Vendor\saberLiou;
+
+use App\Http\Controllers\Controller;
 
 class DebutController extends Controller
 {
@@ -11,6 +13,6 @@ class DebutController extends Controller
      */
     public function index()
     {
-        return view('vendor.saberliou.debut');
+        return view('vendor.saberliou.debut.debut');
     }
 }
