@@ -1,7 +1,7 @@
 {
     "name": "saberliou/debut",
-    "description": ":description",
-    "license": "license",
+    "description": "Debut package from saberLiou.",
+    "license": "MIT",
     "authors": [
         {
             "name": "saberLiou",
