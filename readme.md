@@ -1,11 +1,10 @@
-# Debut
+# Laravel Debut Package
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
 [![Build Status][ico-travis]][link-travis]
-[![StyleCI][ico-styleci]][link-styleci]
 
-This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
+A simple Laravel package created by saberLiou to implement debut package creation and composer require it in any Laravel project from here.
 
 ## Installation
 
@@ -17,15 +16,15 @@ $ composer require saberliou/debut
 
 ## Usage
 
+```
+$ php artisan vendor:publish --provider="saberLiou\Debut\DebutServiceProvider"
+```
+
+This will publish DebutController and debut.blade.php, and load a display route from DebutServiceProvider in the package.
+
 ## Change log
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
-
-## Testing
-
-``` bash
-$ composer test
-```
 
 ## Contributing
 
